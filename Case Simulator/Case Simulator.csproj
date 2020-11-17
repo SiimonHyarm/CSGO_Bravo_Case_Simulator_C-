@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -52,8 +55,13 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Price.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Quality.cs" />
+    <Compile Include="Skin.cs" />
+    <Compile Include="StatTrack.cs" />
+    <Compile Include="Weapon.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -67,6 +75,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="library.json" />
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -85,6 +95,54 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\71rVqrAy5QL._SL1500__blurred.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\default_rare_item.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deser_g.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ak_fir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\awp_g.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p2000_f.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p90_e.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m4a1_b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mac_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m4_z.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usp_o.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\G3SG1_D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ump_B.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\galil_Ar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nova_T.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dual_B.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sg553.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

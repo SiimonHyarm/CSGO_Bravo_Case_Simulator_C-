@@ -124,4 +124,52 @@
   <data name="71rVqrAy5QL._SL1500__blurred" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\71rVqrAy5QL._SL1500__blurred.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="default_rare_item" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\default_rare_item.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deser_g" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deser_g.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ak_fir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ak_fir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="awp_g" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\awp_g.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="p2000_f" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\p2000_f.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="p90_e" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\p90_e.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="m4a1_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\m4a1_b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mac_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mac_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="m4_z" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\m4_z.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="usp_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\usp_o.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="G3SG1_D" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\G3SG1_D.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ump_B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ump_B.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="galil_Ar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\galil_Ar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nova_T" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nova_T.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dual_B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dual_B.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sg553" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sg553.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
