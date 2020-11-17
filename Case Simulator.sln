@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Case Simulator", "Case Simulator\Case Simulator.csproj", "{B3D88591-EE4C-4C6C-8855-1B5C3D86C5CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3D88591-EE4C-4C6C-8855-1B5C3D86C5CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3D88591-EE4C-4C6C-8855-1B5C3D86C5CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3D88591-EE4C-4C6C-8855-1B5C3D86C5CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3D88591-EE4C-4C6C-8855-1B5C3D86C5CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9DF2D317-0A68-4591-91FD-B113C3454180}
+	EndGlobalSection
+EndGlobal
