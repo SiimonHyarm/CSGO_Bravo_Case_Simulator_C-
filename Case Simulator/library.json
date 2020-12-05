@@ -7,8 +7,7 @@
     "**/obj",
     "**/platforms"
   ],
-  "Weapon":
-  {
+  "Weapon": {
     "blue": {
       "SG: Wave Spray": {
         "Normal": {
@@ -210,7 +209,9 @@
           "Minimal Wear": 26.52,
           "Factory New": 26.41
         },
-        "Stat-Track": { "Factory New": 119.33 }
+        "Stat-Track": {
+          "Factory New": 119.33
+        }
       }
     },
     "gold": {
