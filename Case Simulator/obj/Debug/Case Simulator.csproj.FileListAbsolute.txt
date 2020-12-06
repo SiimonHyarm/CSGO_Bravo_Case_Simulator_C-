@@ -1,0 +1,28 @@
+C:\Users\User\source\repos\Case Simulator\Case Simulator\bin\Debug\Case Simulator.exe.config
+C:\Users\User\source\repos\Case Simulator\Case Simulator\bin\Debug\Case Simulator.exe
+C:\Users\User\source\repos\Case Simulator\Case Simulator\bin\Debug\Case Simulator.pdb
+C:\Users\User\source\repos\Case Simulator\Case Simulator\obj\Debug\Case Simulator.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Case Simulator\Case Simulator\obj\Debug\Case_Simulator.Form1.resources
+C:\Users\User\source\repos\Case Simulator\Case Simulator\obj\Debug\Case_Simulator.Properties.Resources.resources
+C:\Users\User\source\repos\Case Simulator\Case Simulator\obj\Debug\Case Simulator.csproj.GenerateResource.cache
+C:\Users\User\source\repos\Case Simulator\Case Simulator\obj\Debug\Case Simulator.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Case Simulator\Case Simulator\obj\Debug\Case Simulator.exe
+C:\Users\User\source\repos\Case Simulator\Case Simulator\obj\Debug\Case Simulator.pdb
+C:\Users\User\source\repos\Case Simulator\Case Simulator\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\source\repos\Case Simulator\Case Simulator\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\source\repos\Case Simulator\Case Simulator\obj\Debug\Case Simulator.csproj.CopyComplete
+C:\Users\User\source\repos\Case Simulator\Case Simulator\bin\Debug\Weighted Randomizer.dll
+C:\Users\User\source\repos\Case Simulator\Case Simulator\bin\Debug\Weighted Randomizer.pdb
+C:\Users\User\source\repos\Case Simulator\Case Simulator\bin\Debug\Weighted Randomizer.xml
+C:\Users\User\source\repos\Case Simulator\Case Simulator\bin\Debug\loop.wav
+C:\Users\User\source\repos\Case Simulator\Case Simulator\bin\Debug\x86\sqlite3.dll
+C:\Users\User\source\repos\Case Simulator\Case Simulator\bin\Debug\x64\sqlite3.dll
+C:\Users\User\source\repos\Case Simulator\Case Simulator\bin\Debug\EntityFramework.dll
+C:\Users\User\source\repos\Case Simulator\Case Simulator\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\source\repos\Case Simulator\Case Simulator\bin\Debug\System.Data.SQLite.dll
+C:\Users\User\source\repos\Case Simulator\Case Simulator\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\User\source\repos\Case Simulator\Case Simulator\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\User\source\repos\Case Simulator\Case Simulator\bin\Debug\EntityFramework.xml
+C:\Users\User\source\repos\Case Simulator\Case Simulator\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\source\repos\Case Simulator\Case Simulator\bin\Debug\System.Data.SQLite.xml
+C:\Users\User\source\repos\Case Simulator\Case Simulator\bin\Debug\t_loop.wav
