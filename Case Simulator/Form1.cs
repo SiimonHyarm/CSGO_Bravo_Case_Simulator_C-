@@ -14,6 +14,14 @@ namespace Case_Simulator
 
     public partial class Form1 : Form
     {
+        int opened = 0;
+        double profit = 0;
+        double case_price = 29.62;
+        double key_price = 2.49;
+        double loss = 0;
+        double full_price;
+        double percent;
+        double earned; 
         Random rn = new Random();
         string rn_gun;
         Price pr = new Price();
@@ -39,6 +47,9 @@ namespace Case_Simulator
              Stat- Track variant is 10% probability <- stat-track knife is 0.026%
              """
               */
+            full_price = case_price + key_price;
+
+
         }
         private void button2_Click(object sender, EventArgs e)
         {
@@ -166,38 +177,74 @@ namespace Case_Simulator
                 "Karambit: Fade"
             };
 
-
-
             //choose the random gun from the color
             if (randomColor == "Blue")
             {
                 quality = "Mil-spec";
                 rn_gun = blue_guns[rn.Next(blue_guns.Count)];
+                listView1.Items.Insert(0, rn_gun);
+                listView1.Items[0].BackColor = Color.Blue;
             }
             else if (randomColor == "Purple")
             {
                 quality = "Restricted";
                 rn_gun = purple_guns[rn.Next(purple_guns.Count)];
+                listView1.Items.Insert(0, rn_gun);
+                listView1.Items[0].BackColor = Color.Purple;
             }
             else if (randomColor == "Pink")
             {
                 quality = "Classified";
                 rn_gun = pink_guns[rn.Next(pink_guns.Count)];
+                listView1.Items.Insert(0, rn_gun);
+                listView1.Items[0].BackColor = Color.Pink;
             }
             else if (randomColor == "Red")
             {
                 quality = "Covert";
                 rn_gun = red_guns[rn.Next(red_guns.Count)];
+                listView1.Items.Insert(0, rn_gun);
+                listView1.Items[0].BackColor = Color.Red;
             }
             else if (randomColor == "Gold")
             {
                 quality = "Knife";
                 rn_gun = gold_guns[rn.Next(gold_guns.Count)];
+                listView1.Items.Insert(0, rn_gun);
+                listView1.Items[0].BackColor = Color.Gold;
             }
 
             Dictionary<string, double> pricey = pr.price(rn_gun, randomType);
             foreach (var x in pricey)
-                Console.WriteLine("Quality: {0}, Gun: {1}, Wear: {2}, Type: {3}, Price: {4}",quality,rn_gun, x.Key, randomType, x.Value);
+                profit += -full_price + x.Value;
+            foreach (var x in pricey)
+                earned += x.Value;
+
+            opened += 1;
+            loss -= Math.Round(full_price,2);
+            percent = -Math.Round(profit * 100 / loss, 2);
+            total_opened.Text = opened.ToString();
+            profit_percentage.Text = percent.ToString()+"%";
+            spent_amount.Text = loss.ToString();
+            earned_amount.Text = earned.ToString();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            opened = 0;
+            loss = 0;
+            profit = 0;
+            earned = 0;
+            percent = 0;
+            total_opened.Text = 0.ToString();
+            profit_percentage.Text = 0.ToString();
+            spent_amount.Text = 0.ToString();
+            earned_amount.Text = 0.ToString();
+            listView1.Items.Clear();
+        }
+
+        // Need to add a flashy border to chosen item. 
+        // Maybe iterate through random items, until get the correct item. 
+        // Overall the project is close to being OK.
     }
 }
