@@ -338,3 +338,6 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+/bfg.jar
+/Case Simulator/t_loop.wav
+/Case Simulator/loop.wav
