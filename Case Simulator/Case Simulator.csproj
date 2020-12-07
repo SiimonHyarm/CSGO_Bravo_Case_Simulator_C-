@@ -167,7 +167,6 @@
     <None Include="Resources\sg553.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="loop.wav" />
     <Content Include="t_loop.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
